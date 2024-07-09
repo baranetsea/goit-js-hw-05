@@ -9,7 +9,7 @@
 // У консоль будуть виведені результати її роботи.
 
 const getTotalBalanceByGender = (users, gender) =>
-  clients.filter((client) => client.gender === gender).reduce((acc, x) => acc + x.balance, 0);
+  users.filter((users) => users.gender === gender).reduce((acc, x) => acc + x.balance, 0);
 
 const clients = [
   {
